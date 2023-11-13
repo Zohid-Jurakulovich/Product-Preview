@@ -177,7 +177,7 @@ img {
   top: calc(50% - 10px)
 }
 
-@media only screen and (max-width:375px){
+@media only screen and (max-width:374px){
   
   html{
     overflow: hidden;
