@@ -75,6 +75,9 @@ img {
 
 .product__img-mobile{
   display: none;
+  max-width: 300px;
+  max-height: 450px;
+  border-radius: 10px 0 0 10px;
 }
 
 .product__info{
@@ -177,16 +180,16 @@ img {
   top: calc(50% - 10px)
 }
 
-@media only screen and (max-width:374px){
+@media only screen and (max-width:426px){
   
   html{
     overflow: hidden;
   }
-
+  
   .container{
-max-width: 415px;
-padding: 28px 16px;
-
+    max-width: 415px;
+    padding: 28px 16px;
+    
   }
   
   .product{
