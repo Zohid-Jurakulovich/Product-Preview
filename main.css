@@ -77,7 +77,7 @@ img {
   display: none;
   max-width: 300px;
   max-height: 450px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .product__info{
@@ -132,10 +132,6 @@ img {
   line-height: 32px;
   font-style: normal;
   color: var(--dark-cyann);
-  /* letter-spacing: 0px; */
-  
-  /* text-align: left; */
-  
 }
 
 .price__previous{
@@ -143,8 +139,6 @@ img {
   font-weight: 500;
   line-height: 23px;
   color: var(--aurometal);
-  /* letter-spacing: 0px; */
-  /* text-align: left; */
   
 }
 
@@ -183,12 +177,12 @@ img {
 @media only screen and (max-width:426px){
   
   html{
-    overflow: hidden;
+    /* overflow: scroll; */
   }
   
   .container{
     max-width: 415px;
-    padding: 28px 16px;
+    padding: 1.5rem 1rem;
     
   }
   
@@ -200,14 +194,15 @@ img {
   }
   .product__img-mobile{
     display: block;
-    max-width: 343px;
+    width: 100%;
+    max-width: 355px;
     max-height: 240px;
   }
   
   .product__info{
-    /* width: 100%; */
     max-width: 295px;
-    padding: 1.5REM;
+    padding: 1.5rem;
+    border-radius: 0 0 10px 10px;
   }
   
 }
